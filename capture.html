@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>WebRTC: Still photo capture demo</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="capture.css" type="text/css" media="all">
+	<script src="capture.js">
+	</script>
+</head>
+<body>
+<div class="contentarea">
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">
+      <svg width="39px" height="29px" viewBox="0 0 39 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		  		<g id="camera" fill="#FFFFFF">
+		      	<g id="Group">
+		        	<path d="M19.5251118,22.9502913 C22.8793703,22.9502913 25.5985342,20.2147223 25.5985342,16.8402269 C25.5985342,13.4657315 22.8793703,10.7301625 19.5251118,10.7301625 C16.1708533,10.7301625 13.4516894,13.4657315 13.4516894,16.8402269 C13.4516894,20.2147223 16.1708533,22.9502913 19.5251118,22.9502913 Z" id="Oval"></path>
+		          <path d="M37.3850932,4.79271709 L27.3499006,4.79271709 L27.0496894,2.43697479 C27.0496894,1.09111485 25.965118,0 24.6273292,0 L14.2919255,0 C12.9541366,0 11.8695652,1.09111485 11.8695652,2.43697479 L11.569354,4.79271709 L1.61490683,4.79271709 C0.722993789,4.79271709 0,5.47945658 0,6.3767507 L0,27.3347339 C0,28.232028 0.722993789,29 1.61490683,29 L37.3850932,29 C38.2770062,29 39,28.232028 39,27.3347339 L39,6.3767507 C39,5.47945658 38.2770062,4.79271709 37.3850932,4.79271709 L37.3850932,4.79271709 Z M19.5076708,26.8523754 C14.0228012,26.8523754 9.57647826,22.3792269 9.57647826,16.8613473 C9.57647826,11.3433866 14.0228012,6.8702381 19.5076708,6.8702381 C24.9925404,6.8702381 29.4388634,11.3433866 29.4388634,16.8613473 C29.4388634,22.3791457 24.9925404,26.8523754 19.5076708,26.8523754 L19.5076708,26.8523754 Z M37.1428571,9.09803922 L28.6645963,9.09803922 L28.6645963,6.57983193 L37.1428571,6.57983193 L37.1428571,9.09803922 L37.1428571,9.09803922 Z" id="Shape"></path>
+		        </g>
+		      </g>
+		    </g>
+			</svg>
+  		<span>Take photo</span>
+  	</button>
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box.">
+  </div>
+</body>
+</html>
